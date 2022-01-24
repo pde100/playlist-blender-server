@@ -184,7 +184,7 @@ app.post('/login', (req, res) => {
 
 })
 
-app.listen(process.env || 3001)
+app.listen(process.env.PORT || 3001)
 
 
 // all my classes
